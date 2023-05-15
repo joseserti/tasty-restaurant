@@ -24,7 +24,7 @@ a {
 .row {
     display: flex; 
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-left: 2rem;
     margin-right: 2rem;
     padding: 10px;
@@ -206,6 +206,9 @@ section {
   width: 30%;
 }
 
+.rowcard {
+  justify-content: space-around;
+}
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
@@ -282,6 +285,97 @@ section {
 .rowmenutwoitems {
   gap: 30px;
 }
+
+
+
+
+.customerssay, .arrows{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* .container {
+  border: 1px solid red;
+} */
+
+.imgcustomers {
+  border-radius: 20px;
+  width: 55rem;
+  height: 40rem;
+}
+
+.contwhat {
+  /* border: 1px solid red; */
+  width: 20rem;
+  padding: 3rem;
+}
+
+.what {
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.contlorem {
+  position: absolute;
+  left: 62rem;
+  width: 25%;
+  background-color: white;
+  padding: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.counts {
+  margin-left: 14rem;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem;
+  width: 70%;
+  box-shadow: 2px 6px 10px 2px rgba(0,0,0,0.2);
+  border-radius: 20px;
+}
+
+.countnumber {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 7rem;
+  font-weight: bold;
+  color: #ffcb66;
+}
+
+.countitem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pcount{
+  width: 50%;
+  text-align: center;
+}
+
+.articleimage{
+  height: 320px;
+  display: block;
+  border-radius: 20px;
+}
+
+.particles{
+  font-size: 26px;
+  font-weight: normal;
+  padding: 10px;
+}
+
+.h2articles {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  padding: 10px;
+}
+
 
 
 

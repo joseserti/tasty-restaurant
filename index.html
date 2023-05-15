@@ -19,9 +19,9 @@
                 <nav class="navbar">
                     <nav>
                         <a href="#main" id="itmHome">Home</a>
-                        <a href="#">Menu</a>
-                        <a href="#">Services</a>
-                        <a href="#">Promo</a>
+                        <a href="#ourmenu">Menu</a>
+                        <a href="#whychooseus">Services</a>
+                        <a href="#ourcustomers">Promo</a>
                         <a href="#about">About Us</a>
                         <a href="#feature">Our Feature</a>
                     </nav>
@@ -80,7 +80,7 @@
             <h1 id="healthy">Healthy Lifestyle Uplifts Your Mood</h1>
             <div class="row cards">
                 <div class="card">
-                    <div class="row">
+                    <div class="row rowcard">
                         <img class="cardavatar" src="./assets/img/limpiando.jpg">
                         <h1 class="cardnumber">01</h1>
                     </div>
@@ -91,7 +91,7 @@
                     <img class="cardimage" src="./assets/img/bar.jpg">
                 </div>
                 <div class="card activecard">
-                    <div class="row">
+                    <div class="row rowcard">
                         <img class="cardavatar" src="./assets/img/avatarskilledchef.jpg">
                         <h1 class="cardnumber activecardnumber">02</h1>
                     </div>
@@ -102,7 +102,7 @@
                     <img class="cardimage" src="./assets/img/skilledchefs.jpg">
                 </div>
                 <div class="card">
-                    <div class="row">
+                    <div class="row rowcard">
                         <img class="cardavatar" src="./assets/img/avatarfreshproducts.jpg">
                         <h1 class="cardnumber">03</h1>
                     </div>
@@ -255,13 +255,100 @@
                 <button class="button">View More</button>
             </div>
         </div>
+    </section>
+    <!-- End "Our Menu" section --> 
+    <!-- Start Our Customers Say section -->
+    <section id="ourcustomers">
         <div class="row divider">
             <hr/>
         </div>
+        <div class="row customerssay">
+            <div class="container">
+                <img class="imgcustomers" src="./assets/img/customers.jpg" alt="">
+            </div>
+            <div class="container">
+                <div class="container contwhat">
+                    <h1 class="what">What our customers say</h1>
+                </div>
+                <div class="container contlorem">
+                    <br>
+                    <img src="./assets/img/quote-left-solid.svg" width="30px" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit consequuntur cupiditate optio iure quo iusto, exercitationem eius, sunt magni totam tempore veniam!</p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h1>Ludwig</h1>
+                    <p>Food Blogger</p>
+                </div>
+            </div>
+        <!-- <div class="container customerssay">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit consequuntur cupiditate optio iure quo iusto, exercitationem eius, sunt magni totam tempore veniam!</p>
+                <div class="container">
+                    <button class="button">Read More</button>
+                </div>
+            </div> -->
+        </div>
+        <div class="row arrows">
+            <img src="./assets/img/arrow-left-solid.svg" width="30px" alt="">
+            <img src="./assets/img/arrow-right-solid.svg" width="30px" alt="">
+        </div>
+        <div class="container counts">
+                <div class="container countitem">
+                    <h1 class="countnumber">20</h1>
+                    <p class="pcount">Years of Experience</p>
+                </div>
+                <div class="container countitem">
+                    <h1 class="countnumber">4K</h1>
+                    <p class="pcount">Satisfied Clients</p>
+                </div>
+                <div class="container countitem">
+                    <h1 class="countnumber"> 3K</h1>
+                    <p class="pcount">Total Calls</p>
+                </div>
+                <div class="container countitem">
+                    <h1 class="countnumber">45</h1>
+                    <p class="pcount">Award Win</p>
+                </div>
+        </div>
     </section>
-    <!-- End "Our Menu" section --> 
+    <!-- End Our Customers Say section -->
+    <!-- start "Our Feature" section -->
+    <section id="blog">
+        <div class="row divider">
+            <hr/>
+        </div>
+        <div class="rowFeature">
+            <h2>Our Blog</h2>
+            <h1 id="healthy">Lastest Articles</h1>
+            <div class="row cards">
+                <div class="container">
+                    <div class="cardtext">
+                        <img class="articleimage" src="./assets/img/articles1.jpg">
+                        <p class="particles">Prepare this things when you want to start cooking pasta.</p>
+                        <h2 class="h2articles">17-12-2022</h3>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="cardtext">
+                        <img class="articleimage" src="./assets/img/articles2.jpg">
+                        <p class="particles">Prepare this things when you want to start cooking pasta.</p>
+                        <h2 class="h2articles">17-12-2022</h3>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="cardtext">
+                        <img class="articleimage" src="./assets/img/articles3.jpg">
+                        <p class="particles">Prepare this things when you want to start cooking pasta.</p>
+                        <h2 class="h2articles">17-12-2022</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End "Our Feature" section -->    
     <!-- Start "Footer" section -->
-    <!-- <footer>
+    <footer>
         <div class="row footer">
             <div class="row">
                 <div class="container">
@@ -271,9 +358,9 @@
                     <nav class="navbar">
                         <nav>
                             <a id="footermain" href="#main" id="itmHome">Home</a>
-                            <a id="footermenu" href="#">Menu</a>
-                            <a id="footerservices" href="#">Services</a>
-                            <a id="footerpromo" href="#">Promo</a>
+                            <a id="footermenu" href="#ourmenu">Menu</a>
+                            <a id="footerservices" href="#whychooseus">Services</a>
+                            <a id="footerpromo" href="#ourcustomers">Promo</a>
                             <a id="footerabout" href="#about">About Us</a>
                             <a id="footerdeature" href="#feature">Our Feature</a>
                         </nav>
@@ -281,11 +368,11 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
             <div class="footeroptions">
                 <div class="container">
                     <h1 class="indulge">Indulge in a world of flavors with every bite</h1>
-                    <!-- <h3 class="h3">2023 Taquerias El Rinconsito</h3> -->
+                    <h3 class="h3">2023 Taquerias El Rinconsito</h3>
                 </div>
                 <div class="container footeroptions2">
                     <a id="footermain" href="#main" id="itmHome">Home</a>
@@ -295,17 +382,9 @@
                     <a id="footerabout" href="#about">About Us</a>
                     <a id="footerdeature" href="#feature">Our Feature</a>
                 </div>
-                <!-- <div class="row footeroptions2">
-                    <a id="footermain" href="#main" id="itmHome">Home</a>
-                    <a id="footermenu" href="#">Menu</a>
-                    <a id="footerservices" href="#">Services</a>
-                    <a id="footerpromo" href="#">Promo</a>
-                    <a id="footerabout" href="#about">About Us</a>
-                    <a id="footerdeature" href="#feature">Our Feature</a>
-                </div> -->
             </div>
-        </div>
+        </div> -->
 
-    </footer> -->
+    </footer>
 </body>
 </html>
